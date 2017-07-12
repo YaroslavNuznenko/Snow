@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Pe-icon-7-stroke";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Pe-icon-7-stroke/Pe-icon-7-stroke.eot?#iefix") format("embedded-opentype"), url("../fonts/Pe-icon-7-stroke/Pe-icon-7-stroke.woff") format("woff"), url("../fonts/Pe-icon-7-stroke/Pe-icon-7-stroke.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "PlayfairDisplayBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/PlayfairDisplayBold/PlayfairDisplayBold.eot?#iefix") format("embedded-opentype"), url("../fonts/PlayfairDisplayBold/PlayfairDisplayBold.woff") format("woff"), url("../fonts/PlayfairDisplayBold/PlayfairDisplayBold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "PlayfairDisplayItalic";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/PlayfairDisplayItalic/PlayfairDisplayItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/PlayfairDisplayItalic/PlayfairDisplayItalic.woff") format("woff"), url("../fonts/PlayfairDisplayItalic/PlayfairDisplayItalic.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "PlayfairDisplayRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/PlayfairDisplayRegular/PlayfairDisplayRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/PlayfairDisplayRegular/PlayfairDisplayRegular.woff") format("woff"), url("../fonts/PlayfairDisplayRegular/PlayfairDisplayRegular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "WorkSansBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/WorkSansBold/WorkSansBold.eot?#iefix") format("embedded-opentype"), url("../fonts/WorkSansBold/WorkSansBold.woff") format("woff"), url("../fonts/WorkSansBold/WorkSansBold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "WorkSansMedium";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/WorkSansMedium/WorkSansMedium.eot?#iefix") format("embedded-opentype"), url("../fonts/WorkSansMedium/WorkSansMedium.woff") format("woff"), url("../fonts/WorkSansMedium/WorkSansMedium.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "WorkSansRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/WorkSansRegular/WorkSansRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/WorkSansRegular/WorkSansRegular.woff") format("woff"), url("../fonts/WorkSansRegular/WorkSansRegular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "RobotoLight";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/RobotoLight/RobotoLight.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoLight/RobotoLight.woff") format("woff"), url("../fonts/RobotoLight/RobotoLight.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "QuiteChocolatey";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/QuiteChocolatey/QuiteChocolatey.eot?#iefix") format("embedded-opentype"), url("../fonts/QuiteChocolatey/QuiteChocolatey.ttf") format("truetype"); }
