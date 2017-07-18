@@ -5,47 +5,64 @@
     <title>Заголовок</title>
     <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="libs/bootstrap/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="css/fonts.css" />
-	<link rel="stylesheet" href="css/main.css" />
-	<link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="css/fonts.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/media.css"/>
     <link rel="stylesheet" href="libs/animate/animate.min.css">
 </head>
 <body>
-    <header>
-        <nav id="scrolled_navbar"  class="navbar navbar-default navbar-fixed-top">
-          <div class="container-fluid">
+<header>
+    <nav id="scrolled_navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <span class="logo">Yaroslav</span>
+                <span class="logo">Yaroslav</span>
             </div>
-
             <!-- Collect the nav links, forms, and other content for toggling -->
-          </div><!-- /.container-fluid -->
-        </nav>
-        <nav class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a class="a" href="#">About</a></li>
-            <li><a class="a" href="#">Contact</a></li>
-            <li><a class="a" href="#">Portfolio</a></li>
-            <li><a class="a" href="#">Blog</a></li>
-          </ul>
-      </nav>
-        <div class="header_text">
-            <p>NEW BRANDING AGENCY</p>
-            <h1>We are about to change the way <br><i>you publish on web</i></h1>
+            <div class=" navbar-right right-menu-nav" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav ">
+                    <li><a class="nav-items" href="#">About</a></li>
+                    <li><a class="nav-items" href="#">Contact</a></li>
+                    <li><a class="nav-items" href="#">Portfolio</a></li>
+                    <li><a class="nav-items" href="#">Blog</a></li>
+                </ul>
+                    <a class="icon-button">
+                        <div class="icon-bars"></div>
+                        <div class="icon-bars"></div>
+                        <div class="icon-bars"></div>
+                    </a>
+            </div>
+        </div><!-- /.container-fluid -->
+    </nav>
+    <div class="header_text">
+        <p>NEW BRANDING AGENCY</p>
+        <h1>We are about to change the way <br><i>you publish on web</i></h1>
+    </div>
+    <div class="collapsed-menu">
+        <div class="icon-close">
+            <img src="../images/icon-close.png" >
         </div>
-        <a href="#" class="cirle_down"><span class="glyphicon glyphicon-menu-down"></span></a>
-    </header>
+            <span class="logo">Yaroslav</span>
+        <ul class="center-menu">
+            <li><a class="nav-items" href="#">About</a></li>
+            <li><a class="nav-items" href="#">Contact</a></li>
+            <li><a class="nav-items" href="#">Portfolio</a></li>
+            <li><a class="nav-items" href="#">Blog</a></li>
+        </ul>
+        <div class="bottom-icons">
+            <a class="bottom-icon tw-icon"></a>
+            <a class="bottom-icon fb-icon"></a>
+            <a class="bottom-icon dr-icon"></a>
+            <a class="bottom-icon ins-icon"></a>
+        </div>
+    </div>
+    <a href="#" class="cirle_down"><span class="glyphicon glyphicon-menu-down"></span></a>
+</header>
+
+<script type="text/javascript" src="libs/jquery/jquery-1.11.2.min.js"></script>
+<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+<script src="libs/animate/animate-css.js"></script>
+<script src="libs/waypoints/waypoints.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
 </body>
-    <script type="text/javascript" src="libs/jquery/jquery-1.11.2.min.js"></script>
-    <script src="libs/bootstrap/js/bootstrap.min.js"></script>
-    <script src="libs/animate/animate-css.js"></script>
-    <script src="libs/waypoints/waypoints.min.js"></script>
-    <script type="text/javascript" src="js/common.js"></script>
 </html>
