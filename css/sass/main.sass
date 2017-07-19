@@ -3,9 +3,14 @@ $dark-color: #171717
 body
 	font-family: "WorkSansMedium",sans-serif
 	color: #fff
+	h1,h2
+		font-family: "PlayfairDisplayBold",sans-serif
 h1
-	font-family: "PlayfairDisplayBold",sans-serif
 	font-size: 64px
+h2
+	font-size: 40px
+	color: #171717
+
 i
 	font-family: "PlayfairDisplayItalic",sans-serif
 header
@@ -117,6 +122,7 @@ header
 
 		.right-menu-nav
 			.navbar-nav
+				margin: 15px 15px
 				text-transform: uppercase
 				li
 					.nav-items-scrolled
@@ -139,7 +145,6 @@ header
 							transition: 1s
 			.icon-button
 				display: none
-
 				.icon-bars
 					background: white
 					height: 3px
@@ -147,3 +152,57 @@ header
 					margin: 4px
 
 
+.about-agency
+	h2
+		margin-top: 65px
+		margin-bottom: 20px
+
+	p
+		color: #5f5f5f
+		margin-bottom: 24px
+		font-size: 16px
+	img
+		margin-bottom: 65px
+
+.statistic
+	background-image: url("../images/bg-pattern.jpg")
+	background-size: cover
+
+	.stats-row
+		margin-top: 80px
+		margin-bottom: 80px
+
+		.stat-info-icon
+			font-family: "Pe-icon-7-stroke",  sans-serif
+			color: #ffffff
+			font-size: 50px
+			float: left
+			margin-top: -10px
+			margin-right: 20px
+		.icon-portfolio
+			&::before
+				content: "\e622"
+		.icon-clock
+			&::before
+				content: "\e66b"
+		.icon-star
+			&::before
+				content: "\e611"
+		.icon-heart
+			&::before
+				content: "\e642"
+		.stat-info-text
+			text-transform: uppercase
+			font-size: 14px
+			margin-top: 2px
+		.stat-info-num
+			font-size: 19px
+.best-projects
+	h2
+		margin-top: 85px
+		margin-bottom: 30px
+
+	p
+		color: #5f5f5f
+		margin-bottom: 24px
+		font-size: 16px
