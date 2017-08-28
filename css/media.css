@@ -8,6 +8,56 @@
     h1{
         font-size: 60px;
     }
+    .best-projects .ref-projects {
+        height: 930px; }
+    .best-projects .ref-projects .ref-item .ref-content,
+    .best-projects .ref-projects .ref-item .ref-project,
+    .best-projects .ref-projects .ref-item {
+        width: 310px;
+        height: 310px;}
+    .best-projects .ref-projects .ref-item .ref-item-2,
+    .best-projects .ref-projects .ref-item .ref-project-2,
+    .best-projects .ref-projects .ref-item .ref-content-2 {
+        left: 310px;
+        top: 0; }
+    .best-projects .ref-projects .ref-item .ref-item-3,
+    .best-projects .ref-projects .ref-item .ref-project-3,
+    .best-projects .ref-projects .ref-item .ref-content-3 {
+        left: 620px;
+        top: 0; }
+    .best-projects .ref-projects .ref-item .ref-item-4,
+    .best-projects .ref-projects .ref-item .ref-project-4,
+    .best-projects .ref-projects .ref-item .ref-content-4{
+        left: 0;
+        top: 310px; }
+    .best-projects .ref-projects .ref-item .ref-item-5,
+    .best-projects .ref-projects .ref-item .ref-project-5,
+    .best-projects .ref-projects .ref-item .ref-content-5 {
+        left: 310px;
+        top: 310px; }
+    .best-projects .ref-projects .ref-item .ref-item-6,
+    .best-projects .ref-projects .ref-item .ref-project-6,
+    .best-projects .ref-projects .ref-item .ref-content-6{
+        left: 620px;
+        top: 310px; }
+    .best-projects .ref-projects .ref-item .ref-item-7,
+    .best-projects .ref-projects .ref-item .ref-project-7,
+    .best-projects .ref-projects .ref-item .ref-content-7 {
+        top: 620px;
+        left: 0; }
+    .best-projects .ref-projects .ref-item .ref-item-8,
+    .best-projects .ref-projects .ref-item .ref-project-8,
+    .best-projects .ref-projects .ref-item .ref-content-8 {
+        top: 620px;
+        left: 310px; }
+    .best-projects .ref-projects .ref-item .ref-item-9,
+    .best-projects .ref-projects .ref-item .ref-project-9,
+    .best-projects .ref-projects .ref-item .ref-content-9 {
+        top: 620px;
+        left: 620px; }
+    .latest-blog .carousel-row .owl-carousel .owl-item .image-item a{
+        top: 140px
+    }
 }
 
 
@@ -29,39 +79,214 @@
     .stats-row .col-md-3:nth-child(2){
         margin-bottom: 15px;
     }
+    .best-projects .ref-projects {
+        height: 1725px; }
+    .best-projects .ref-projects .ref-item .ref-content,
+    .best-projects .ref-projects .ref-item .ref-project,
+    .best-projects .ref-projects .ref-item {
+        width: 345px;
+        height: 345px;}
+    .best-projects .ref-projects .ref-item .ref-item-2,
+    .best-projects .ref-projects .ref-item .ref-project-2,
+    .best-projects .ref-projects .ref-item .ref-content-2 {
+        left: 345px;
+        top: 0; }
+    .best-projects .ref-projects .ref-item .ref-item-3,
+    .best-projects .ref-projects .ref-item .ref-project-3,
+    .best-projects .ref-projects .ref-item .ref-content-3 {
+        left: 0;
+        top: 345px; }
+    .best-projects .ref-projects .ref-item .ref-item-4,
+    .best-projects .ref-projects .ref-item .ref-project-4,
+    .best-projects .ref-projects .ref-item .ref-content-4 {
+        left: 345px;
+        top: 345px; }
+    .best-projects .ref-projects .ref-item .ref-item-5,
+    .best-projects .ref-projects .ref-item .ref-project-5,
+    .best-projects .ref-projects .ref-item .ref-content-5 {
+        left: 0;
+        top: 690px; }
+    .best-projects .ref-projects .ref-item .ref-item-6,
+    .best-projects .ref-projects .ref-item .ref-project-6,
+    .best-projects .ref-projects .ref-item .ref-content-6 {
+        left: 345px;
+        top: 690px; }
+    .best-projects .ref-projects .ref-item .ref-item-7,
+    .best-projects .ref-projects .ref-item .ref-project-7,
+    .best-projects .ref-projects .ref-item .ref-content-7 {
+        left: 0;
+        top: 1035px;  }
+    .best-projects .ref-projects .ref-item .ref-item-8,
+    .best-projects .ref-projects .ref-item .ref-project-8,
+    .best-projects .ref-projects .ref-item .ref-content-8 {
+        left: 345px;
+        top: 1025px;  }
+    .best-projects .ref-projects .ref-item .ref-item-9,
+    .best-projects .ref-projects .ref-item .ref-project-9,
+    .best-projects .ref-projects .ref-item .ref-content-9 {
+        left: 0;
+        top: 1380px;  }
+    .latest-blog .carousel-row .owl-carousel .owl-item .image-item a{
+        top: 90px
+    }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 
-    .stats-row .col-md-3{
+    .stats-row .stat-info{
         margin-bottom: 15px;
         margin-left: 70px;
     }
+    .best-projects .ref-projects{
+        height: 800vw;
+        margin-left: 0;  }
+    header .header_text {
+        left: 4%;
+    }
+    .best-projects .ref-projects .ref-item .ref-content,
+    .best-projects .ref-projects .ref-item .ref-project,
+    .best-projects .ref-projects .ref-item {
+        width: 90vw;
+        height: 90vw;   }
+    .best-projects .ref-projects .ref-item .ref-item-2,
+    .best-projects .ref-projects .ref-item .ref-project-2,
+    .best-projects .ref-projects .ref-item .ref-content-2 {
+        left: 0;
+        top: 90vw }
+    .best-projects .ref-projects .ref-item .ref-item-3,
+    .best-projects .ref-projects .ref-item .ref-project-3,
+    .best-projects .ref-projects .ref-item .ref-content-3 {
+        left: 0;
+        top: 180vw; }
+    .best-projects .ref-projects .ref-item .ref-item-4,
+    .best-projects .ref-projects .ref-item .ref-project-4,
+    .best-projects .ref-projects .ref-item .ref-content-4 {
+        left: 0;
+        top: 270vw; }
+    .best-projects .ref-projects .ref-item .ref-item-5,
+    .best-projects .ref-projects .ref-item .ref-project-5,
+    .best-projects .ref-projects .ref-item .ref-content-5{
+        left: 0;
+        top: 360vw; }
+    .best-projects .ref-projects .ref-item .ref-item-6,
+    .best-projects .ref-projects .ref-item .ref-project-6,
+    .best-projects .ref-projects .ref-item .ref-content-6 {
+        left: 0;
+        top: 450vw; }
+    .best-projects .ref-projects .ref-item .ref-item-7,
+    .best-projects .ref-projects .ref-item .ref-project-7,
+    .best-projects .ref-projects .ref-item .ref-content-7 {
+        left: 0;
+        top: 540vw;
+    }
+    .best-projects .ref-projects .ref-item .ref-item-8,
+    .best-projects .ref-projects .ref-item .ref-project-8,
+    .best-projects .ref-projects .ref-item .ref-content-8 {
+        left: 0;
+        top: 630vw;
+    }
+    .best-projects .ref-projects .ref-item .ref-item-9,
+    .best-projects .ref-projects .ref-item .ref-project-9,
+    .best-projects .ref-projects .ref-item .ref-content-9 {
+        left: 0;
+        top: 720vw;
+    }
+    .contacts .contacts-info #connect-form .half-width {
+        width: 100%; }
+    .latest-blog .carousel-row .owl-carousel .owl-item .image-item a{
+        top: 25%
+    }
 }
-
+@media only screen and (max-width : 543px) {
+.latest-blog .carousel-row .owl-carousel .owl-item .image-item a{
+    top: 48%;
+}
+}
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
     h1{
-        font-size: 48px;
-    }
+    font-size: 48px;
+}
     header .collapsed-menu .icon-close {
-        right: 50px;
-    }
+    right: 50px;
+}
     header .navbar .right-menu-nav .icon-button{
-        right: 50px;
-    }
+    right: 50px;
+}
     header .navbar .logo {
-        left: 50px;
-    }
+    left: 50px;
+}
     header .collapsed-menu .logo {
-        left: 50px;
-    }
+    left: 50px;
+}
     header .collapsed-menu .center-menu {
-        left: 33%;
-    }
+    left: 33%;
+}
     header .collapsed-menu .bottom-icons {
-        left: 39%;
+    left: 39%;
+}
+
+    .best-projects .ref-projects {
+    height: 760vw;
+    margin-left: 2%;
+}
+    .best-projects .ref-projects .ref-item .ref-content,
+    .best-projects .ref-projects .ref-item .ref-project,
+    .best-projects .ref-projects .ref-item {
+    width: 85vw;
+    height: 85vw;}
+    .best-projects .ref-projects .ref-item .ref-item-2,
+    .best-projects .ref-projects .ref-item .ref-project-2,
+    .best-projects .ref-projects .ref-item .ref-content-2  {
+    left: 0vw;
+    top: 85vw; }
+    .best-projects .ref-projects .ref-item .ref-item-3,
+    .best-projects .ref-projects .ref-item .ref-project-3,
+    .best-projects .ref-projects .ref-item .ref-content-3  {
+    left: 0;
+    top: 170vw; }
+    .best-projects .ref-projects .ref-item .ref-item-4,
+    .best-projects .ref-projects .ref-item .ref-project-4,
+    .best-projects .ref-projects .ref-item .ref-content-4  {
+    left: 0;
+    top: 255vw; }
+    .best-projects .ref-projects .ref-item .ref-item-5,
+    .best-projects .ref-projects .ref-item .ref-project-5,
+    .best-projects .ref-projects .ref-item .ref-content-5  {
+    left: 0;
+    top: 340vw; }
+    .best-projects .ref-projects .ref-item .ref-item-6,
+    .best-projects .ref-projects .ref-item .ref-project-6,
+    .best-projects .ref-projects .ref-item .ref-content-6 {
+    left: 0;
+    top: 425vw; }
+    .best-projects .ref-projects .ref-item .ref-item-7,
+    .best-projects .ref-projects .ref-item .ref-project-7,
+    .best-projects .ref-projects .ref-item .ref-content-7  {
+    left: 0;
+    top: 510vw;
+}
+    .best-projects .ref-projects .ref-item .ref-item-8,
+    .best-projects .ref-projects .ref-item .ref-project-8,
+    .best-projects .ref-projects .ref-item .ref-content-8 {
+    left: 0;
+    top: 595vw;
+}
+    .best-projects .ref-projects .ref-item .ref-item-9,
+    .best-projects .ref-projects .ref-item .ref-project-9,
+    .best-projects .ref-projects .ref-item .ref-content-9 {
+    left: 0;
+    top: 680vw;
+}
+    .latest-blog .carousel-row .owl-carousel .owl-item {
+    width: 290px;
+}
+    .latest-blog .carousel-row .owl-carousel .owl-item .short-info h5 {
+    font-size: 16px;
+}
+    .latest-blog .carousel-row .owl-carousel .owl-item .image-item a{
+        top: 40%;
     }
 }
 

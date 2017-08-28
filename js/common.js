@@ -32,3 +32,70 @@ $('.icon-close').on('click',function () {
 
 
 
+$(".ref-item").mouseover(function(){
+    $(this).children(".ref-content").css("z-index", "3");
+});
+
+$(".ref-item").mouseout(function(){
+    $(this).children(".ref-content").css("z-index", "1");
+});
+
+
+
+/*Активация owl-carousel*/
+
+$(document).ready(function(){
+    $("#quote-carousel").owlCarousel({
+        navigation: false,
+        slideSpeed : 300,
+        dotsSpeed: 300,
+        loop: true,
+        paginationSpeed : 400,
+        items : 1,
+        itemsDesktop : false,
+        itemsDesktopSmall : false,
+        itemsTablet: false,
+        itemsMobile : false
+    });
+    $("#partners-carousel").owlCarousel({
+        loop:true,
+        nav:false,
+        dots:false,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:5
+            }
+        }
+    });
+    $("#blog-carousel").slick({
+        infinite:true,
+        arrows:false,
+        dots:true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        padding: 20,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 543,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+        ]
+    });
+});
