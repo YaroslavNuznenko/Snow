@@ -42,7 +42,8 @@ header
 		bottom: 28px
 		text-align: center
 		opacity: .6
-		left: 48%
+		left: 50%
+		transform: translate(-50%, -50%)
 		box-sizing: border-box
 		transition: opacity .4s
 		.glyphicon-menu-down
@@ -366,11 +367,12 @@ header
 				box-sizing: border-box
 				background: #ffffff
 				position: relative
-				margin-left: 30px
+				margin-right: 30px
 				.image-item
+					position: relative
 					a
 						position: absolute
-						top: 180px
+						bottom: 10px
 						left: 10px
 						width: 90px
 						background: #ffffff
@@ -385,9 +387,13 @@ header
 							transition: .7s
 							&:hover, &:focus
 								opacity: .7
+						&:hover, &:focus
+							outline: none
 					img
 						display: block
 						width: 100%
+				&:hover, &:focus
+					outline: none
 				.short-info
 					padding: 25px
 					h5
