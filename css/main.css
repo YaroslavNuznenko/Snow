@@ -176,7 +176,7 @@ header {
         margin: 4px; }
 
 .about-agency h2 {
-  margin-top: 65px;
+  margin-top: 70px;
   margin-bottom: 20px; }
 
 .about-agency p {
@@ -370,7 +370,7 @@ header {
     margin-left: 30px; }
     .latest-blog .carousel-row .owl-carousel .owl-item .image-item a {
       position: absolute;
-      top: 43%;
+      top: 180px;
       left: 10px;
       width: 90px;
       background: #ffffff; }
